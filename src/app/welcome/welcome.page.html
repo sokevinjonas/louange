@@ -1,13 +1,14 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>welcome</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content [fullscreen]="true" color="dark"> </ion-content>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">welcome</ion-title>
-    </ion-toolbar>
-  </ion-header>
-</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-button
+      shape="round"
+      expand="block"
+      size="large"
+      [strong]="true"
+      routerLink="/page/tabs/tab1"
+      >Bienvenu
+    </ion-button>
+  </ion-toolbar>
+</ion-footer>

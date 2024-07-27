@@ -7,14 +7,16 @@ import { IonicModule } from '@ionic/angular';
 import { WelcomePageRoutingModule } from './welcome-routing.module';
 
 import { WelcomePage } from './welcome.page';
+import { RouterLink } from '@angular/router';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    WelcomePageRoutingModule
+    WelcomePageRoutingModule,
+    RouterLink,
   ],
-  declarations: [WelcomePage]
+  declarations: [WelcomePage],
 })
 export class WelcomePageModule {}
